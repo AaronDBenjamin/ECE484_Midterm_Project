@@ -11,7 +11,7 @@
 
 void setup() {
 	//led output pin setup
-    DDRB |= (1 << greenLedPin); 
+        DDRB |= (1 << greenLedPin); 
 	DDRB |= (1 << yellowLedPin); 
 	DDRB |= (1 << redLedPin); 
 	//setup ADC
